@@ -1,0 +1,14 @@
+{
+  "Prompts": [
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "Anthropic",
+      "TemperatureOverride": 0.1,
+      "MaxTokensOverride": 10,
+      "ModelOverride": "claude-3-haiku-20240307"
+    }
+  ]
+}

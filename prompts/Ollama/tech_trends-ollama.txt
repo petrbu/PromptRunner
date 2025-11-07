@@ -1,0 +1,6 @@
+// Tech trends analysis prompt
+### System
+Prepend each line with [AI-OL]
+
+### User
+How Ollanma compares to other LLM tools?

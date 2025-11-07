@@ -1,0 +1,13 @@
+/.idea/
+/.vs/
+/.vscode/
+/bin/
+/obj/
+/.github/
+api_config.development.json
+api_config.json
+*.user
+*.DotSettings.user
+*.suo
+*.cache
+.DS_Store

@@ -1,0 +1,23 @@
+{  "Prompts": [
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/ai_explanation.txt",
+      "Provider": "AzureOpenAI",
+      "TemperatureOverride": 0.1,
+      "MaxTokensOverride": 5,
+      "ModelOverride": "gpt-4o-standard"
+    },
+    {
+      "Id": "image_analysis",
+      "Name": "Image Analysis Azure",
+      "Category": "Vision",
+      "FilePath": "prompts/azure_image_analysis.txt",
+      "Provider": "AzureOpenAI",
+      "TemperatureOverride": 0.7,
+      "MaxTokensOverride": 500,
+      "ModelOverride": "gpt-4o-standard"
+    }
+  ]
+}

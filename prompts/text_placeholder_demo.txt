@@ -1,0 +1,13 @@
+// Text placeholder demo prompt
+### System
+You are an AI assistant helping with text template processing.
+Start each response with [TXT]
+
+### User
+Process this template with placeholders:
+
+Base template: {txt:demo_template}
+Project name: {txt:project_name}
+
+Custom text section: {text:just tell a joke here and return base template and project name}
+

@@ -1,0 +1,14 @@
+{
+  "Prompts": [
+
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "Gemini",
+      "TemperatureOverride": 0.6,
+      "MaxTokensOverride": 15
+    }
+  ]
+}

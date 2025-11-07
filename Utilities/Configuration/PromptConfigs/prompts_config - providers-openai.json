@@ -1,0 +1,14 @@
+{
+  "Prompts": [
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "OpenAI",
+      "TemperatureOverride": 0.5,
+      "MaxTokensOverride": 20,
+      "ModelOverride": "gpt-3.5-turbo"
+    }
+  ]
+}

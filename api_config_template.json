@@ -1,0 +1,38 @@
+{
+  "ApiSettings": {
+    "DefaultProvider": "Anthropic",
+    "Providers": {
+      "Anthropic": {
+        "Uri": "https://api.anthropic.com",
+        "DefaultModel": "claude-3-haiku-20240307",
+        "ApiKey": "YOUR_ANTHROPIC_API_KEY",
+        "ApiVersion": "2023-06-01" 
+      },
+      "AzureOpenAI": {
+        "Uri": "https://YOUR_AZURE_RESOURCE.openai.azure.com",
+        "DefaultModel": "gpt-4o-standard",
+        "ApiKey": "YOUR_AZURE_OPENAI_API_KEY",
+        "ApiVersion": "2024-05-01-preview" 
+      },
+      "OpenAI": {
+        "Uri": "https://api.openai.com",
+        "DefaultModel": "gpt-4o-mini",
+        "ApiKey": "YOUR_OPENAI_API_KEY"
+      },
+      "Gemini": {
+        "Uri": "https://generativelanguage.googleapis.com",
+        "DefaultModel": "gemini-2.0-flash",
+        "ApiKey": "YOUR_GEMINI_API_KEY"
+      },
+      "Ollama": {
+        "Uri": "http://localhost:11434",
+        "DefaultModel": "qwen2.5-coder"
+      }
+    },
+    "GlobalSettings": {
+      "DefaultTemperature": 0.5,
+      "DefaultMaxOutputTokens": 50,
+      "DefaultTimeout": 30
+    }
+  }
+}

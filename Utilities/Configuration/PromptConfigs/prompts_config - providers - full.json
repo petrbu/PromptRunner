@@ -1,0 +1,50 @@
+{
+  "Prompts": [
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "AzureOpenAI",
+      "TemperatureOverride": 0.2,
+      "MaxTokensOverride": 15
+    },
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "Anthropic",
+      "TemperatureOverride": 0.1,
+      "MaxTokensOverride": 10
+    },
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "OpenAI",
+      "TemperatureOverride": 0.5,
+      "MaxTokensOverride": 20
+    },
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/Ollama/tech_trends-ollama.txt",
+      "Provider": "Ollama",
+      "TemperatureOverride": 0.6,
+      "ModelOverride": "mistral:latest",
+      "MaxTokensOverride": 60
+    },
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "Gemini",
+      "TemperatureOverride": 0.5,
+      "MaxTokensOverride": 20
+    }
+  ]
+}

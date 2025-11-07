@@ -1,0 +1,24 @@
+{
+  "Prompts": [
+    {
+      "Id": "tech_trends",
+      "Name": "Technology Trends",
+      "Category": "Research",
+      "FilePath": "prompts/tech_trends.txt",
+      "Provider": "Gemini",
+      "TemperatureOverride": 0.5,
+      "MaxTokensOverride": 20,
+      "ModelOverride": "gemini-2.0-flash"
+    },
+    {
+      "Id": "image_analysis",
+      "Name": "Image Analysis",
+      "Category": "Vision",
+      "FilePath": "prompts/dynamic_image_demo.txt",
+      "Provider": "Gemini",
+      "TemperatureOverride": 0.1,
+      "MaxTokensOverride": 300,
+      "ModelOverride": "gemini-2.0-flash"
+    }
+  ]
+}

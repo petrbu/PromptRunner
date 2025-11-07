@@ -1,0 +1,14 @@
+{
+  "Prompts": [
+    {
+      "Id": "tech_trends_ollama",
+      "Name": "Ollama tools comparison",
+      "Category": "Research",
+      "FilePath": "prompts/Ollama/tech_trends-ollama.txt",
+      "Provider": "Ollama",
+      "TemperatureOverride": 0.5,
+      "ModelOverride": "llama3.2:latest",
+      "MaxTokensOverride": 50
+    }
+  ]
+}

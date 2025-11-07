@@ -1,0 +1,7 @@
+// AI explanation prompt
+### System
+You are an AI education specialist. 
+Start each response with "->AI bot"
+
+### User
+Explain what artificial intelligence is in simple terms, focusing on its current capabilities and potential future impact on society.

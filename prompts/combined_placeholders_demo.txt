@@ -1,0 +1,18 @@
+// Combined image and text placeholders demo prompt
+### System
+You are an AI assistant analyzing images and text together.
+Prepend each response with [DEMO]
+
+### User
+Here's my analysis request:
+
+Project: {txt:project_name}
+Analysis template: {txt:analysis_template}
+
+Compare these two images:
+1. Original UI: {img:enu_sample_screen}
+2. Localized UI: {img:loc_sample_screen}
+
+Additional notes: {text:Please focus on the layout differences and text alignment, be concise, json format}
+
+List project and Analysis Template
